@@ -1,0 +1,257 @@
+
+<!-- saved from url=(0053)https://www.simplycoding.org/files/CSS_Reference.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link type="text/css" rel="stylesheet" href="./CSS Reference_files/projects.css">
+	<title>CSS Reference</title>
+
+</head>
+
+<body id="body" data-pinterest-extension-installed="cr2.0.5">
+	<h2 class="title">CSS Reference Sheet</h2>
+	<p class="topic">CSS Property Value Pairs</p>
+	<p class="content">Below is a table of some useful css properties with possible values.  Use this as a reference throughout the course to help you style your web pages. For a more complete reference sheet <a href="http://www.w3schools.com/cssref/" target="_blank">Click Here.</a></p>
+	<p>&lt;link type="text/css" rel="stylesheet" href="stylesheet.css"/&gt; - Links your html page to your css file</p>
+	<p class="cblock">p {<br>
+color:blue; <span class="lblock">- Proper CSS Syntax</span><br>
+}</p>
+<p class="red content">Remember in the example above 'color' is the property and 'blue' is the value.</p>
+<p class="content">To comment out CSS code use /* ... */, see below.</p>
+	<p class="cblock">/* p{<br>
+		color:blue;<br>
+	} */</p>
+	<table class="bcenter" border="1" cellpadding="10">
+<tbody>
+	<tr>
+		<th>Property</th>
+		<th>Possible Value(s)</th>
+		<th>Description</th>
+	</tr>
+	<tr>
+		<th colspan="3">Text Manipulation and Styling Properties</th>
+	</tr>
+	<tr>
+		<td class="red">font-size:</td>
+		<td class="blue">20px;<br>
+			2em;<br>
+			80%;<br>
+		</td>
+		<td class="green"> px means pixels.<br>
+			 em is based off default size. 2em is twice as large as default.<br>
+			 % - 100% equals 12 point font, other %'s are based off that.<br>
+		</td>
+	</tr>
+	<tr>
+		<td class="red">font-family:</td>
+		<td class="blue">arial;<br>
+			'Times New Roman;'<br>
+			many others
+		</td>
+		<td class="green">
+			There a lots of fonts to choose from.<br>
+			<a href="http://www.w3schools.com/cssref/css_websafe_fonts.asp" target="_blank">click here</a> for many web safe fonts to use.
+		</td>
+	</tr>
+	<tr>
+		<td class="red">color:</td>
+		<td class="blue"> blue;<br>
+			#0000FF;<br> 
+			rgb(0,0,255); 
+		</td>
+		<td class="green">
+			All of those will display blue text.
+		</td>
+	</tr>
+	<tr>
+		<td class="red">text-align:</td>
+		<td class="blue">center;<br>
+						left;<br>
+						right;
+		</td>
+		<td class="green">Aligns text directionally.</td>
+	</tr>
+	<tr>	
+		<td class="red">text-decoration:</td>
+		<td class="blue">none;<br>
+			underline;<br>
+			overline;<br>
+			line-through;<br>
+		</td>
+		<td class="green">Commonly used to remove underline from links.</td>
+	</tr>	
+	<tr>
+		<td class="red">font-weight:</td>
+		<td class="blue">bold;<br>
+			normal;<br>
+			900;</td>
+		<td class="green">Makes text bold, removes bold or number value to how bold you want it.</td>
+	</tr>
+	<tr>
+		<td class="red">list-style-type:</td>
+		<td class="blue">none;<br>
+			square;<br>
+			circle;<br>
+			lots of them</td>
+		<td class="green">Specifies the type of list-item marker in a list. <a href="http://www.w3schools.com/cssref/pr_list-style-type.asp" target="_blank">Click here for others</a></td>
+	</tr>
+	<tr>
+		<td class="red">line-height:</td>
+		<td class="blue">2em;<br>
+						also px &amp; %.</td>
+		<td class="green">Vertically aligns the text</td>
+	</tr>
+	<tr>
+		<th colspan="3">Block Manipulation and Styling Properties</th>
+	</tr>
+	<tr>
+		<td class="red cwidtho">background-color:</td>
+		<td class="blue">blue;<br>
+			#0000FF;<br> 
+			rgb(0,0,255); 
+		</td>
+		<td class="green">Fills shape with specified color.</td>
+	</tr>
+	<tr>
+		<td class="red">height:</td>
+		<td class="blue">300px;</td>
+		<td class="green">Defines the height of the shape. Use px, % or em.</td>
+	</tr>
+	<tr>
+		<td class="red">width:</td>
+		<td class="blue">300px;</td>
+		<td class="green">Defines the width of the shape. Use px, % or em.</td>
+	</tr>
+	<tr>
+		<td class="red">border:</td>
+		<td class="blue cwidth">2px solid black;</td>
+		<td class="green">This is the short hand way of setting a border. To do each value individually do:<br>
+			border-color:black;<br> border-style:solid;<br> border-width:2px;</td>
+	</tr>
+	<tr>
+		<td class="red">border-style:</td>
+		<td class="blue">solid;<br>
+			dotted;<br>
+			dashed;<br>
+			double;<br>
+			groove;<br>
+			ridge;
+		</td>
+		<td class="green">Defines how the border style will be displayed</td>
+
+	</tr>
+	<tr>
+		<td class="red">position:</td>
+		<td class="blue">absolute;<br>
+			fixed;<br>
+			relative;<br>
+		</td>
+		<td class="green">
+			<b>absolute</b> - Stays in its place regardless of other elements.<br>
+			<b>fixed</b> - Element will be positioned in relation to the browser
+window (it moves with a scrolling window).<br>
+			<b>relative</b> - Element is positioned relative to itself. It can easily be
+manipulated by adding directional properties, ie
+top:25px; will add 25px above the element.
+		</td>
+	</tr>
+	<tr>
+		<td class="red">display</td>
+		<td class="blue">block;<br>
+			inline;<br>
+			inline-block;<br>
+			none;
+		</td>
+		<td class="green">
+			<b>block</b> - Won't allow other elements to be next to it, but you
+may set its own height, width, margins etc.<br>
+			<b>inline</b> - Elements can sit next to it, but you can't set its own
+height, width, margins etc. Takes shape of it's HTML content.<br>
+			<b>inline-block</b> - Elements can sit next to it, and you can set its own
+height, width, margins etc.<br>
+			<b>none</b> - Element is not displayed, it disappears.</td>
+	</tr>
+	<tr>
+		<td class="red">border-radius:</td>
+		<td class="blue">10px;</td>
+		<td class="green">Rounds the corners of a border. To make a circle, use 50% as the value.</td>
+	</tr>
+	<tr>
+		<td class="red">margin:<br>
+			
+		</td>
+		<td class="blue">auto;<br>
+			25px;<br>
+		</td>
+		<td class="green">Margins are the space between the borders of two elements<br>
+			<b>auto</b> - Equal margins on all sides, used to center a block element.<br>
+			<b>25px;</b> - Margins of 25px applied to each side of the block.<br>
+			</td>
+		</tr>
+		<tr>
+			<td class="red">margin-top:<br>
+			margin-right:<br>
+			margin-bottom:<br>
+			margin-left:
+			</td>
+		<td class="blue">25px;</td>
+		<td class="green">Applies margin to the appropriate direction.<br>
+		</td>
+	</tr>
+	<tr>
+		<td class="red">padding:</td>
+		<td class="blue">25px;</td>
+		<td class="green">Padding is the space between the border and the content inside the block.<br>
+			Properties &amp; values are the same as margins except you cannot use negative values.</td>
+	</tr>
+	<tr>
+		<td class="red">float:</td>
+		<td class="blue">left;<br>
+			right;<br>
+			none;
+		</td>
+		<td class="green">
+			Moves the block to appropriate position in its container, other elements will flow around it.
+		</td>
+	</tr>
+	<tr>
+		<td class="red">clear:</td>
+		<td class="blue">left;<br>
+			right;<br>
+			both;
+		</td>
+		<td class="green">Clears the float, so elements will stop flowing around a floated block.</td>
+	</tr>
+	<tr>
+		<th colspan="3">Link Manipulation and Styling Properties</th>
+	</tr>
+	<tr>
+		<td class="red">a:link{<br>
+			color:
+		</td>
+		<td class="blue">yellow;</td>
+		<td class="green">Changes the initial displayed link color.</td>
+	</tr>
+	<tr>
+		<td class="red">a:visited{<br>
+			color:
+		</td>
+		<td class="blue">orange;</td>
+		<td class="green">Changes the link color once the link has been visited.</td>
+	</tr>
+	<tr>
+		<td class="red">a:active{<br>
+			color:</td>
+		<td class="blue">pink;</td>
+		<td class="green">Changes the link color while being clicked on.</td>
+	</tr>
+	<tr>
+		<td class="red">a:hover{<br>
+			color:</td>
+		<td class="blue">white;</td>
+		<td class="green">Changes the link color while hovering your mouse over it.</td>
+	</tr>
+</tbody>
+</table>
+
+
+
+</body></html>
